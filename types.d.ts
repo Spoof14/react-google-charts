@@ -165,7 +165,7 @@ export declare type GoogleVizEvents = {
     removeAllListeners: (chartWrapper: GoogleChartWrapper) => any;
 };
 export declare type GoogleChartPackages = "corechart" | "charteditor" | "controls" | "calendar" | "gantt" | "gauge" | "geochart" | "map" | "orgchart" | "sankey" | "table" | "timeline" | "treemap" | "wordtree";
-export declare type GoogleChartVersion = "current" | "upcoming";
+export declare type GoogleChartVersion = "current" | "upcoming" | number;
 export declare type GoogleDataTableColumnType = "string" | "number" | "boolean" | "date" | "datetime" | "timeofday";
 export declare enum GoogleDataTableColumnRoleType {
     annotation = "annotation",
